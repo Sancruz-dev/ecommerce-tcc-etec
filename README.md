@@ -3,15 +3,15 @@
 
 <br/>
 
-<image style="border-radius: 16px" src="https://user-images.githubusercontent.com/83969467/163599582-9bbe5a67-a8e3-4645-8aca-2b00b3a8d433.png" />
+###### <image style="border-radius: 16px" src="https://user-images.githubusercontent.com/83969467/163599582-9bbe5a67-a8e3-4645-8aca-2b00b3a8d433.png" alt="Ilustração introdutória da exposição do projeto" title="Ilustração introdutória" /> (Ilustração introdutória)
 
 
 ### :warning: Avisos Importantes
 
+Devido à motivos pessoais, Pamela (dona da Rivier Alianças), não pôde dar continuidade ao seu trabalho após o projeto e-commerce ser entregue à ela, resultando na **DESATIVAÇÃO** da loja virtual de joias, até o momento.
 
+Portanto, ainda é possível realizar cadastro/login, fazer comentários, avaliar/favoritar produtos, e algumas outras opções, porém, não há como efeturar compras pelo website.
 
-
-Entretanto, será apresentado tudo o que foi prometido e exercido pela equipe.
 
 ### Sumário
 
@@ -30,12 +30,13 @@ Entretanto, será apresentado tudo o que foi prometido e exercido pela equipe.
 
 ## 1. Introdução
 
-blabla
+Contudo, será apresentado tudo o que foi prometido e exercido pela equipe.
+
 
 ## 2. A Loja
 
 
-<image height="360px" style="border-radius:16px" src="https://user-images.githubusercontent.com/83969467/163585198-6e0d8067-0f97-498e-b68d-8c8986b03b98.png" />
+###### <image style="border-radius:16px; max-height:340px" src="https://user-images.githubusercontent.com/83969467/163585198-6e0d8067-0f97-498e-b68d-8c8986b03b98.png" alt="Introdução da empresa cliente" title="Introdução da empresa cliente" /> (Introdução da empresa cliente)
 
 <br/>
 
@@ -45,7 +46,7 @@ Para conseguir vender seus produtos, Pamela dependia do uso das redes sociais ap
 
 ## 3. Projeto
 
-<image height="382px" style="border-radius:16px" src="https://user-images.githubusercontent.com/83969467/163588273-c698dd1f-5846-4ec7-bc03-e3b01969b5b7.png" />
+<image style="border-radius:16px; max-height:382px" src="https://user-images.githubusercontent.com/83969467/163588273-c698dd1f-5846-4ec7-bc03-e3b01969b5b7.png" />
 
 - O software auxila na venda da Rivier Alianças;
 
@@ -98,9 +99,9 @@ Para conseguir vender seus produtos, Pamela dependia do uso das redes sociais ap
 
 Para obter acesso à toda documentação do projeto, basta clicar no link de download abaixo:
 
-> [:page_facing_up: Clique aqui para baixar o PDF](https://github.com/Sancruz-dev/ecommerce-tcc-etec/files/8496832/TCC.-.DOCUMENTACAO.-.GRUPO.1.-.3DSA.pdf)
+[:page_facing_up: Clique aqui para baixar o PDF](https://github.com/Sancruz-dev/ecommerce-tcc-etec/files/8496832/TCC.-.DOCUMENTACAO.-.GRUPO.1.-.3DSA.pdf)
 
-> <image height="360px" style="border-radius:16px" src="https://user-images.githubusercontent.com/83969467/163594918-53caf93a-557d-4316-8986-b7f0675f7c5b.png" alt="Figura 4: Pasta src em Frontend" title="Pasta src" /> pré-visual da documentação
+###### <image height="360px" style="border-radius:16px" src="https://user-images.githubusercontent.com/83969467/163594918-53caf93a-557d-4316-8986-b7f0675f7c5b.png" alt="Pré-visual da documentação" title="Capa da documentação" /> Pré-visual da documentação
 
 <br/>
 
