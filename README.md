@@ -69,16 +69,14 @@ Ademais, logo abaixo temos alguns aspectos gerais de desempenho:
 
 ## 2. Desenvolvimento
 
-Por certo, todos os membros do grupo tiveram sua função e dever, portanto, agora serão expostas as principais tarefas, os mecanismos/ferramentas utilizadas por mim, que contribuiram para o desenvolvimento dessa aplicação. 
+Por certo, todos os membros do grupo tiveram sua funções e deveres, portanto, agora serão expostas as principais tarefas e, os mecanismos/ferramentas utilizadas por mim, que contribuiram para o desenvolvimento dessa aplicação. Nesse trajeto, além de liderar o grupo, também efetivei tarefas que envolviam back-end e front-end.
 
 
 ### I. Prototipação
 
-<image style="border-radius:16px; max-height:382px" src="https://user-images.githubusercontent.com/83969467/163688070-7574e2c1-6f1c-424b-9e41-346bd33d4e14.png" />
+No 2° Bimestre, a equipe teve que criar um protótipo para Pamela, no intuito de simular como seria a primeira versão do projeto, a partir do estudo de requisitos da cliente. Imediatamente, lembrei do editor Figma (perfeito para a prototipagem), que por conseguinte fizemos o seu uso.
 
-
-[LINK FIGMA](https://www.figma.com/file/MujR7rpWENjGtBm7raFwq0/Prot%C3%B3tipo---RivieraAlian%C3%A7as?node-id=1%3A2)
-
+<image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/163688070-7574e2c1-6f1c-424b-9e41-346bd33d4e14.png" />
 
 
 ### II. Sistema
@@ -116,7 +114,7 @@ Por certo, todos os membros do grupo tiveram sua função e dever, portanto, ago
 
 ## 3. Documentação
 
-Para obter acesso à toda documentação do projeto, basta clicar no link de download abaixo:
+Para obter acesso à documentação completa do projeto, basta clicar no link de download abaixo:
 
 [Clique aqui para baixar o PDF :page_facing_up:](https://github.com/Sancruz-dev/ecommerce-tcc-etec/files/8496832/TCC.-.DOCUMENTACAO.-.GRUPO.1.-.3DSA.pdf)
 
