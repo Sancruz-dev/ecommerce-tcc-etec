@@ -8,7 +8,7 @@
 
 ### :warning: Avisos Importantes
 
-Devido à motivos pessoais, Pamela (dona da Rivier Alianças), não pôde dar continuidade ao seu trabalho após o projeto e-commerce ser entregue à ela, resultando na **DESATIVAÇÃO** da loja virtual de joias, até o momento.
+Devido à motivos pessoais, Pamela (dona da Rivier Alianças), não pôde dar continuidade ao seu trabalho após o projeto ser entregue à ela, resultando na **DESATIVAÇÃO** da loja virtual de joias, até o momento.
 
 Portanto, ainda é possível realizar cadastro/login, fazer comentários, avaliar/favoritar produtos, e algumas outras opções, posto que, não há como efeturar compras pelo website.
 
@@ -16,31 +16,29 @@ Portanto, ainda é possível realizar cadastro/login, fazer comentários, avalia
 
 ### Sumário
 
-1. [Apresentação](#)
-   1. [A Loja](#)
-   2. [O Projeto](#)
-2. [Desenvolvimento](#)
-   1. [Prototipação](#)
-   2. [Sistema](#)
-   3. [Linguagens](#)
-   4. [Hospedagem e CI/CD](#)
-   5. [Automação e Perfomance](#)
-3. [Documentação](#)
-4. [Referência](#)
+1. [Apresentação](#1-Apresentação)
+   1. [Rivier-Aliancas](#i-Rivier-Alianças)
+   2. [O Projeto](#II-O-Projeto)
+2. [Desenvolvimento](#2-Desenvolvimento)
+   1. [Prototipação](#i-Prototipação)
+   2. [Sistema](#ii-Sistema)
+   3. [Linguagens](#iii-Linguagens)
+   4. [Hospedagem e CI/CD](#IV-Servidores-e-CI/CD)
+   5. [Automação e Perfomance](#V-Automação-e-Perfomance)
+3. [Documentação](#3-Documentação)
+4. [Referências](#4-Referências)
 
 ***
 
 ## 1. Apresentação
 
-Olá, sou Sanmir Cruz, líder da equipe responsável por criar o sistema e-commerce, no qual, será apresentado nos tópicos seguintes. Primordialmente, cabe destacar, que esse repositório exibirá as principais funções exercidas por mim dentro desse trabalho acadêmico, juntamente com as demais funcionalidades que o projeto emite.
+Olá, sou Sanmir Cruz, líder da equipe responsável por criar esse sistema e-commerce, no qual, será apresentado ao decorrer dos tópicos. Primordialmente, cabe destacar, que esse repositório exibirá as principais funções exercidas por mim (a partir do tópico de [Desenvolvimento](#2-Desenvolvimento)), dentro desse trabalho acadêmico, juntamente com as demais funcionalidades que o projeto emite.
 
 
 ### I. Rivier Alianças
 
+###### <image style="border-radius:16px; max-height:340px" src="https://user-images.githubusercontent.com/83969467/163585198-6e0d8067-0f97-498e-b68d-8c8986b03b98.png" alt="Introdução da empresa cliente" title="Introdução da empresa cliente" /> <br/> (Introdução da empresa cliente)
 
-###### <image style="border-radius:16px; max-height:340px" src="https://user-images.githubusercontent.com/83969467/163585198-6e0d8067-0f97-498e-b68d-8c8986b03b98.png" alt="Introdução da empresa cliente" title="Introdução da empresa cliente" /> (Introdução da empresa cliente)
-
-<br/>
 
 Para conseguir vender seus produtos, Pamela dependia do uso das redes sociais apenas (como o Instagram, e Facebook), redirecionando seus clientes para o WhatsApp ou chats privados como Menssenger, para conseguir efetuar a venda. <br/> Suas opções de pagamento são: pix, mercado pago, boleto e cartões de crédito/débito.
 
@@ -48,9 +46,8 @@ Para conseguir vender seus produtos, Pamela dependia do uso das redes sociais ap
 
 ### II. O Projeto
 
-<image style="border-radius:16px; max-height:382px" src="https://user-images.githubusercontent.com/83969467/163588273-c698dd1f-5846-4ec7-bc03-e3b01969b5b7.png" />
+###### <image style="border-radius:16px; max-height:382px" src="https://user-images.githubusercontent.com/83969467/163588273-c698dd1f-5846-4ec7-bc03-e3b01969b5b7.png" alt="Abordagem das funcionalidades" title="Abordagem das funcionalidades" /> <br/> (Abordagem das funcionalidades)
 
-<br/>
 
 Para melhor compreensão, o sistema pode ser dividido em **duas grandes partes**:
 
@@ -70,22 +67,32 @@ Ademais, logo abaixo temos alguns aspectos gerais de desempenho:
 
 <br/>
 
-## 4. Desenvolvimento
+## 2. Desenvolvimento
+
+Por certo, todos os membros do grupo tiveram sua função e dever, portanto, agora serão expostas as principais tarefas, os mecanismos/ferramentas utilizadas por mim, que contribuiram para o desenvolvimento dessa aplicação. 
+
+
+### I. Prototipação
+
+<image style="border-radius:16px; max-height:382px" src="https://user-images.githubusercontent.com/83969467/163688070-7574e2c1-6f1c-424b-9e41-346bd33d4e14.png" />
+
+
+[LINK FIGMA](https://www.figma.com/file/MujR7rpWENjGtBm7raFwq0/Prot%C3%B3tipo---RivieraAlian%C3%A7as?node-id=1%3A2)
 
 
 
-### 4.1. Sistema
+### II. Sistema
 
 - Opencart
 
-### 4.2. Linguagens
+### III. Linguagens
 
 - php
 - js
 - sql
 - css/html
 
-### 4.3. Servidores e CI/CD
+### IV. Servidores e CI/CD
 
 - RemoteMysql
 - Netlify
@@ -98,7 +105,7 @@ Ademais, logo abaixo temos alguns aspectos gerais de desempenho:
 - Gerenciador de arquivos de determinado servidor
 
 
-### 4.4. Automação e Perfomance
+### V. Automação e Perfomance
 
 - Sass
 - Gulp
@@ -107,17 +114,19 @@ Ademais, logo abaixo temos alguns aspectos gerais de desempenho:
 
 <br/>
 
-## 5. Documentação :page_facing_up:
+## 3. Documentação
 
 Para obter acesso à toda documentação do projeto, basta clicar no link de download abaixo:
 
-[Clique aqui para baixar o PDF](https://github.com/Sancruz-dev/ecommerce-tcc-etec/files/8496832/TCC.-.DOCUMENTACAO.-.GRUPO.1.-.3DSA.pdf)
+[Clique aqui para baixar o PDF :page_facing_up:](https://github.com/Sancruz-dev/ecommerce-tcc-etec/files/8496832/TCC.-.DOCUMENTACAO.-.GRUPO.1.-.3DSA.pdf)
 
 ###### <image height="360px" style="border-radius:16px" src="https://user-images.githubusercontent.com/83969467/163594918-53caf93a-557d-4316-8986-b7f0675f7c5b.png" alt="Pré-visual da documentação" title="Capa da documentação" /> Pré-visual da documentação
 
 <br/>
 
-## Referência:
+## 4. Referências
 
 - [GitHub do projeto](https://github.com/Rivier-Team/RivierAliancasOficial)
 - [E-commerce Rivier Alianças](https://github.com/Rivier-Team/RivierAliancasOficial) 
+- [Protótipo da 1ª ideia - Figma](https://www.figma.com/file/MujR7rpWENjGtBm7raFwq0/Prot%C3%B3tipo---RivieraAlian%C3%A7as?node-id=1%3A2)
+
