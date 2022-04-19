@@ -32,7 +32,7 @@ Portanto, ainda é possível realizar cadastro/login, fazer comentários, avalia
 
 ## 1. Apresentação
 
-Olá, sou Sanmir Cruz, líder da equipe responsável por criar esse sistema e-commerce, no qual, será apresentado ao decorrer dos tópicos. Primordialmente, cabe destacar, que esse repositório exibirá as principais funções exercidas por mim (a partir do tópico de [Desenvolvimento](#2-Desenvolvimento)), dentro desse trabalho acadêmico, juntamente com as demais funcionalidades que o projeto emite.
+Olá, sou Sanmir Cruz, líder da equipe responsável por criar esse sistema e-commerce, no qual, será apresentado no decorrer dos tópicos. Primordialmente, cabe destacar, que esse repositório exibirá as principais funções exercidas por mim (a partir do tópico de [Desenvolvimento](#2-Desenvolvimento)), dentro desse trabalho acadêmico, juntamente com as demais funcionalidades que o projeto emite.
 
 
 ### I. Rivier Alianças
@@ -69,7 +69,7 @@ Ademais, logo abaixo temos alguns aspectos gerais de desempenho:
 
 ## 2. Desenvolvimento
 
-Por certo, todos os membros do grupo tiveram sua funções e deveres, portanto, agora serão expostas as principais tarefas e, os mecanismos/ferramentas utilizadas por mim, que contribuiram para o desenvolvimento dessa aplicação. Nesse trajeto, além de liderar o grupo, também efetivei tarefas que envolviam back-end e front-end.
+Por certo, todos os membros do grupo tiveram sua funções e deveres, portanto, agora serão expostas as principais tarefas, mecanismos/ferramentas utilizadas por mim, que contribuiram para o desenvolvimento dessa aplicação. Nesse trajeto, além de liderar o grupo, também efetivei tarefas que envolviam back-end e front-end.
 
 
 ### I. Prototipação
@@ -128,3 +128,15 @@ Para obter acesso à documentação completa do projeto, basta clicar no link de
 - [E-commerce Rivier Alianças](https://github.com/Rivier-Team/RivierAliancasOficial) 
 - [Protótipo da 1ª ideia - Figma](https://www.figma.com/file/MujR7rpWENjGtBm7raFwq0/Prot%C3%B3tipo---RivieraAlian%C3%A7as?node-id=1%3A2)
 
+Essa é uma simples nota de rodapé[^1].
+
+Uma nota de rodapé também pode ter várias linhas[^2].  
+
+Você também pode usar palavras, para se adequar melhor ao seu estilo de escrita[^note].
+
+[^1]: Minha referência.
+[^2]: Cada nova linha deve ser precedida de 2 espaços.  
+  Isso permite que você tenha uma nota de rodapé com várias linhas.
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    Essa nota de rodapé também foi feita com uma sintaxe diferente usando 4 espaços para novas linhas.
