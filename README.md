@@ -74,10 +74,16 @@ Por certo, todos os membros do grupo tiveram sua funções e deveres, portanto, 
 
 ### I. Prototipação
 
-No 2° Bimestre, a equipe teve que criar um protótipo para Pamela, no intuito de simular como seria a primeira versão do projeto, a partir do estudo de requisitos da cliente. Imediatamente, lembrei do editor Figma (perfeito para a prototipagem), que por conseguinte fizemos o seu uso.
+No 2° Bimestre, a equipe teve que criar um protótipo para Pamela, no intuito de simular como seria a primeira versão do projeto, a partir do estudo de requisitos dela. Imediatamente, lembrei do editor Figma (perfeito para a prototipagem), e por conseguinte fizemos o seu uso.
 
-<image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/163688070-7574e2c1-6f1c-424b-9e41-346bd33d4e14.png" />
+###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/163688070-7574e2c1-6f1c-424b-9e41-346bd33d4e14.png" alt="Primeira tela do protótipo" title="Primeira tela do protótipo" /> <br/> (Primeira tela do protótipo)
 
+<a target="__blank" href="https://www.google.com.br">teste google</a>
+
+Caso queira usar o protótipo, [**clique aqui**](https://www.figma.com/proto/MujR7rpWENjGtBm7raFwq0/Prot%C3%B3tipo---RivieraAlian%C3%A7as?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2) para acessá-lo, você será redirecionado diretamente ao emulador do Figma.
+Se por ventura o carregamento do emulador demorar, vá para [*Referências*](#4-referências), e clique no link ***Protótipo Rivier - Editor Figma***.
+
+Houve muitas mudanças após a entrega do protótipo, porém algumas 
 
 ### II. Sistema
 
@@ -126,8 +132,11 @@ Para obter acesso à documentação completa do projeto, basta clicar no link de
 
 - [GitHub do projeto](https://github.com/Rivier-Team/RivierAliancasOficial)
 - [E-commerce Rivier Alianças](https://github.com/Rivier-Team/RivierAliancasOficial) 
-- [Protótipo da 1ª ideia - Figma](https://www.figma.com/file/MujR7rpWENjGtBm7raFwq0/Prot%C3%B3tipo---RivieraAlian%C3%A7as?node-id=1%3A2)
+- [Protótipo Rivier - Editor Figma](https://www.figma.com/file/MujR7rpWENjGtBm7raFwq0/Prot%C3%B3tipo---RivieraAlian%C3%A7as?node-id=1%3A2)
 
+
+
+<!-- 
 Essa é uma simples nota de rodapé[^1].
 
 Uma nota de rodapé também pode ter várias linhas[^2].  
@@ -139,4 +148,4 @@ Você também pode usar palavras, para se adequar melhor ao seu estilo de escrit
   Isso permite que você tenha uma nota de rodapé com várias linhas.
 [^note]:
     Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
-    Essa nota de rodapé também foi feita com uma sintaxe diferente usando 4 espaços para novas linhas.
+    Essa nota de rodapé também foi feita com uma sintaxe diferente usando 4 espaços para novas linhas. -->
