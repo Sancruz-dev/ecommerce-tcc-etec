@@ -78,7 +78,8 @@ No 2° Bimestre, a equipe teve que criar um protótipo para Pamela, no intuito d
 
 ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/163688070-7574e2c1-6f1c-424b-9e41-346bd33d4e14.png" alt="Primeira tela do protótipo" title="Primeira tela do protótipo" /> <br/> (Primeira tela do protótipo)
 
-<a target="_blank" href="https://www.google.com.br">teste google</a>
+[Stackoverflow The Key](https://stackoverflow.blog/2021/03/31/the-key-copy-paste/){:target="_blank" rel="noopener"}
+
 
 Caso queira usar o protótipo, [**clique aqui**](https://www.figma.com/proto/MujR7rpWENjGtBm7raFwq0/Prot%C3%B3tipo---RivieraAlian%C3%A7as?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2) para acessá-lo, você será redirecionado diretamente ao emulador do Figma.
 Se por ventura o carregamento do emulador demorar, vá para [*Referências*](#4-referências), e clique no link ***Protótipo Rivier - Editor Figma***.
