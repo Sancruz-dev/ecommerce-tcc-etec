@@ -69,40 +69,67 @@ Ademais, logo abaixo temos alguns aspectos gerais de desempenho:
 
 ## 2. Desenvolvimento
 
-Por certo, todos os membros do grupo tiveram sua funções e deveres, portanto, agora serão expostas as principais tarefas, mecanismos/ferramentas utilizadas por mim, que contribuiram para o desenvolvimento dessa aplicação. Nesse trajeto, além de liderar o grupo, também efetivei tarefas que envolviam back-end e front-end.
+Por certo, todos os membros do grupo tiveram sua funções e deveres, portanto, agora serão expostas as principais tarefas, mecanismos/ferramentas utilizadas por mim, que contribuiram para o desenvolvimento dessa aplicação. Nesse trajeto, além de liderar o grupo, também efetivei encargos que envolviam back-end e front-end.
 
 
 ### I. Prototipação
 
 No 2° Bimestre, a equipe teve que criar um protótipo para Pamela, no intuito de simular como seria a primeira versão do projeto, a partir do estudo de requisitos dela. Imediatamente, lembrei do editor Figma (perfeito para a prototipagem), e por conseguinte fizemos o seu uso.
 
+
 ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/163688070-7574e2c1-6f1c-424b-9e41-346bd33d4e14.png" alt="Primeira tela do protótipo" title="Primeira tela do protótipo" /> <br/> (Primeira tela do protótipo)
 
-[go](http://stackoverflow.com){target="_blank"}
-
-[go](http://stackoverflow.com){:target="_blank"}
-
-[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
-
-[Stackoverflow The Key](https://stackoverflow.blog/2021/03/31/the-key-copy-paste/){:target="_blank" rel="noopener"}
-
-
-
-Caso queira usar o protótipo, [**clique aqui**](https://www.figma.com/proto/MujR7rpWENjGtBm7raFwq0/Prot%C3%B3tipo---RivieraAlian%C3%A7as?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2) para acessá-lo, você será redirecionado diretamente ao emulador do Figma.
+Caso queira testar o protótipo, [**clique aqui**](https://www.figma.com/proto/MujR7rpWENjGtBm7raFwq0/Prot%C3%B3tipo---RivieraAlian%C3%A7as?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2) para acessá-lo, você será redirecionado diretamente ao emulador do Figma.
 Se por ventura o carregamento do emulador demorar, vá para [*Referências*](#4-referências), e clique no link ***Protótipo Rivier - Editor Figma***.
 
-Houve muitas mudanças após a entrega do protótipo, porém algumas 
+O design arredondado, as telas limpas com poucos elementos agrupados, a paleta de cores, a tipografia, tudo pensado e criado de acordo com o que a cliente ordenou, e logo após, era preciso decidirmos quais ferramentas faríamos o uso para o desenvolvimento.
 
 ### II. Sistema
 
-- Opencart
+A partir das dicas e conselhos dados por Quaiati (professor de Planejamento do Trabalho de Conclusão de Curso), conhecemos o [OpenCart](https://www.opencartbrasil.com.br/) - comércio eletrônico open source - que com certeza foi a melhor descoberta, visto que, é um sistema baseado em PHP, linguagem na qual, tive bastante experiência acadêmica.
+
+###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164107884-0bc36217-2830-4da4-9a69-a7fb9d20328e.png" alt="Logotipo do Open cart" title="Logotipo do OpenCart" /> <br/> (Logotipo do OpenCart)
+
+O Opencart disponibiliza uma imensa quantidade de funções, e isso gerou bastante dificuldade para alterações no sistema, pois a arquitetura de projeto é complexa. Lidei com muitos bugs de diversas versões, mas graças às comunidades do Opencart e outros documetos pela internet, encontrei uma versão estável.
+
+Desse modo, pude mudar toda a parte da administração e principalmente do catálogo - programado em PHP - de tal forma que o design e layout padrão concedido pelo OpenCart fosse alterado para o modelo Rivier Alianças.
+
 
 ### III. Linguagens
 
-- php
-- js
-- sql
-- css/html
+Para realizar testes e modificações, tive que fazer o uso do conhecimento de algumas linguagens para passar por esses "desafios", sendo elas linguagens de programação, marcação ou estilo:
+
+- **PHP & Twig** - Além de praticamente todo o código fonte OpenCart se basear em PHP, o sistema usa um mecanismo bastante produtivo que facilita absurdamente o desenvolvimento nessa linguagem, estou falando do [**Twig**](https://www.treinaweb.com.br/blog/o-que-e-twig) (um dos [*template engines*](https://www.treinaweb.com.br/blog/o-que-e-template-engine/) do php). <br/> Nunca havia visto nada em relação ao Twig antes, até estudar a arquitetura de pastas do OpenCart, visto que, fui capaz de perceber a importância de seu uso, porque através dele consegui manipular desde os elementos visíveis em tela, até à lógica de programação.
+
+   <div style="display:flex">
+
+   ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164113877-5ef8d5b2-705d-44a7-8617-0d87aefd979f.png" alt="Logotipo do PHP" title="Logotipo do PHP" /> <br/> (Logotipo do PHP)
+
+   - 
+   ###### <image style="border-radius:16px; max-height:125px" src="https://user-images.githubusercontent.com/83969467/164131862-5e154351-9bf6-493c-adcd-5d93e2168313.png" alt="Logotipo do Twig" title="Logotipo do Twig" /> <br/> (Logotipo do Twig)
+   </div>
+
+
+- **HTML & CSS** - 
+
+   <div style="display:flex">
+
+   ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164114069-edb22d60-f01d-4336-b223-7e3987e2316f.png" alt="Logotipo do do CSS" title="Logotipo do CSS" /> <br/> (Logotipo do CSS)
+
+   -
+
+   ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164114173-16f2c747-6a55-428c-930a-e16cb6061f55.png" alt="Logotipo do HTML" title="Logotipo do HTML" /> <br/> (Logotipo do HTML)
+   </div>
+
+
+- **MySql** - 
+   ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164113387-886db842-200f-4bdd-85e7-06ad6bf5b0ae.png" alt="Logotipo do Open cart" title="Logotipo do MySql" /> <br/> (Logotipo do MySql)
+
+
+- **Javascript** - 
+   ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164113706-8b42d7c0-6f0d-4457-a541-55c37956c19c.png" alt="Logotipo do Open cart" title="Logotipo do Javascript" /> <br/> (Logotipo do Javascript)
+
+
 
 ### IV. Servidores e CI/CD
 
