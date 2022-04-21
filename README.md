@@ -24,7 +24,7 @@ Portanto, ainda é possível realizar cadastro/login, fazer comentários, avalia
    2. [Sistema](#ii-Sistema)
    3. [Linguagens](#iii-Linguagens)
    4. [Hospedagem e CI/CD](#IV-Servidores-e-CI/CD)
-   5. [Automação e Perfomance](#V-Automação-e-Perfomance)
+   5. [Perfomance e API's](#V-Perfomance-e-APIs)
 3. [Documentação](#3-Documentação)
 4. [Referências](#4-Referências)
 
@@ -97,11 +97,17 @@ Desse modo, pude mudar toda a parte da administração e principalmente do catá
 
 ### III. Linguagens
 
-Para realizar testes e modificações, tive que fazer o uso do conhecimento de algumas linguagens para passar por esses "desafios", sendo elas linguagens de programação, marcação ou estilo:
+Para realizar testes e modificações, tive que fazer o uso do conhecimento de algumas linguagens para passar por esses "desafios" do sistema OpenCart, sendo elas linguagens de programação, marcação ou estilo:
 
-- **PHP & Twig** - Além de praticamente todo o código fonte OpenCart se basear em PHP, o sistema usa um mecanismo bastante produtivo que facilita absurdamente o desenvolvimento nessa linguagem, estou falando do [**Twig**](https://www.treinaweb.com.br/blog/o-que-e-twig) (um dos [*template engines*](https://www.treinaweb.com.br/blog/o-que-e-template-engine/) do php). <br/> Nunca havia visto nada em relação ao Twig antes, até estudar a arquitetura de pastas do OpenCart, visto que, fui capaz de perceber a importância de seu uso, porque através dele consegui manipular desde os elementos visíveis em tela, até à lógica de programação.
+<details> 
+   <summary><b>PHP & Twig ...</b></summary>
 
-   <div style="display:flex">
+   <br/>
+
+   Além de praticamente todo o código fonte se basear em PHP, o sistema usa um mecanismo bastante produtivo que facilita absurdamente o desenvolvimento nessa linguagem, estou falando do [**Twig**](https://www.treinaweb.com.br/blog/o-que-e-twig) (um dos [*template engines*](https://www.treinaweb.com.br/blog/o-que-e-template-engine/) do php). <br/><br/> Eu nunca tinha nem ouvido falar no Twig antes, até estudar a arquitetura de pastas do OpenCart, visto que, fui capaz de perceber a importância de seu uso, porque através dele consegui manipular desde os elementos visíveis em tela, até à lógica de programação.
+</details> 
+
+   <div style="display:flex; align-items:center;">
 
    ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164113877-5ef8d5b2-705d-44a7-8617-0d87aefd979f.png" alt="Logotipo do PHP" title="Logotipo do PHP" /> <br/> (Logotipo do PHP)
 
@@ -109,47 +115,72 @@ Para realizar testes e modificações, tive que fazer o uso do conhecimento de a
    ###### <image style="border-radius:16px; max-height:125px" src="https://user-images.githubusercontent.com/83969467/164131862-5e154351-9bf6-493c-adcd-5d93e2168313.png" alt="Logotipo do Twig" title="Logotipo do Twig" /> <br/> (Logotipo do Twig)
    </div>
 
+***
 
-- **HTML & CSS** - 
+<details> 
+   <summary><b> HTML & CSS ... </b></summary>
 
-   <div style="display:flex">
+   <br/>
 
-   ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164114069-edb22d60-f01d-4336-b223-7e3987e2316f.png" alt="Logotipo do do CSS" title="Logotipo do CSS" /> <br/> (Logotipo do CSS)
+   Sem essas duas linguagens, seria praticamente impossível haver outra forma de renderizar e estilizar as páginas de uma maneira tão simples, uma vez que tive a capacidade de importar bibliotecas e minhas próprias estilizações à um documento php contendo diretrizes html. 
+</details>
 
-   -
+<div style="display:flex; align-items:center;">
 
-   ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164114173-16f2c747-6a55-428c-930a-e16cb6061f55.png" alt="Logotipo do HTML" title="Logotipo do HTML" /> <br/> (Logotipo do HTML)
-   </div>
+###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164114069-edb22d60-f01d-4336-b223-7e3987e2316f.png" alt="Logotipo do do CSS" title="Logotipo do CSS" /> <br/> (Logotipo do CSS)
 
+-
 
-- **MySql** - 
-   ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164113387-886db842-200f-4bdd-85e7-06ad6bf5b0ae.png" alt="Logotipo do Open cart" title="Logotipo do MySql" /> <br/> (Logotipo do MySql)
+###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164114173-16f2c747-6a55-428c-930a-e16cb6061f55.png" alt="Logotipo do HTML" title="Logotipo do HTML" /> <br/> (Logotipo do HTML)
+</div>
 
+***
 
-- **Javascript** - 
-   ###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164113706-8b42d7c0-6f0d-4457-a541-55c37956c19c.png" alt="Logotipo do Open cart" title="Logotipo do Javascript" /> <br/> (Logotipo do Javascript)
+<details> 
+   <summary><b> MySql ... </b></summary>
 
+   <br/>
 
+   Utilizei conhecimentos em MySql somente para executar testes de segurança e manutenção, como por exemplo analizar se o sistema OpenCart criptografa as senhas dos usuários/administradores, ou se atualiza os dados dos produtos e usuários. <br/><br/> Cheguei à encontrar erros de atualização de hora e data, de determinadas ações feitas por clientes em simulação, tal como a finalização de um pedido. A falha aparecia no painel de controle, na parte de exibição de status dos clientes, onde a hora e data exibida estava errada. Para solucionar o problema, tive que realizar ajustes no fuso-horário pelo painel de controle, e cálculos no código da fonte dessa configuração.
+</details>
+
+###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164113387-886db842-200f-4bdd-85e7-06ad6bf5b0ae.png" alt="Logotipo do Open cart" title="Logotipo do MySql" /> <br/> (Logotipo do MySql)
+
+***
+
+<details> 
+   <summary><b> Javascript ... </b></summary>
+
+   <br/>
+
+   Queria ter feito muito com esta linguagem dentro desse sistema tão grande, no entanto, consegui implementar animações, interações e acessibilidade com o **JS**, buscando oferecer ao usuário uma melhor experiência de uso.
+</details>
+
+###### <image style="border-radius:16px; max-height:333px" src="https://user-images.githubusercontent.com/83969467/164113706-8b42d7c0-6f0d-4457-a541-55c37956c19c.png" alt="Logotipo do Open cart" title="Logotipo do Javascript" /> <br/> (Logotipo do Javascript)
+
+<br/>
 
 ### IV. Servidores e CI/CD
 
-- RemoteMysql
-- Netlify
-- InfinityFree
-- Github.io
-- Hostinger
+Como o trabalho foi projetado para uma cliente real, designado à oferecer um sistema totalmente funcional *end-to-end* (de ponta à ponta), então, ele deveria ter seu próprio endereço URL para ser acessado por buscas em rede TCP/IP. Assim sendo, essa missão foi dividida em **duas** fases:
 
-- File Zilla
-- Github Actions
-- Gerenciador de arquivos de determinado servidor
+- **Fase de desenvolvimento/testes:**
+   - **XAMPP** - Antes de ser lançado em produção, primeiro foi preciso testar o e-commerce em uma rede local: a opção mais cabível para um ambiente de desenvolvimento, foi [**XAMPP**](https://www.apachefriends.org/index.html), por conter um SGBD MySql, suporte à PHP, e outros pacotes de servidores, em virtude do sistema OpenCart utilizar estas mesmas ferramentas para seu controle. 
+   
+   - **Netlify, Gihub.io, e InfinityFree** - Para evoluir e ao mesmo tempo não sair da fase de testes, busquei hospedar o comércio-eletrônico numa plataforma gratuita, chamada [**Netlify**](https://www.netlify.com/), a melhor que conheço até hoje, porém não obtive sucesso com ela, devido ser limitada para softwares que contenham o back-end dependente do php. <br/><br/> Similarmente, essa situação também se ocorreu após a utilização do [**Github.io**](https://pages.github.com/). <br/><br/> Eu ainda tinha um último caminho, [**InfinityFree**](https://www.infinityfree.net/). Por ser focado em hospedagem compatível com PHP e MySql, era perfeito para mostrar como a aplicação web se comportaria num ambiente online, permitindo conexões efetuadas por com qualquer pessoa. No início tudo ocorria bem, entretanto, a performance do servidor foi caindo a cada vez que era usado, gerando demora de atualização da página da loja em produção (após modificações realizadas na própria plataforma), ações lentas como upload/download/exclusão de arquivos no gerenciador de pastas, e lentidões nas tarefas do cliente-servidor.
+
+   - **Remote MySQL** - o banco de dados do [**Remote MySQL**](https://remotemysql.com/) serviu como suporte à segurança aos dados da loja virtual - durante o desenvolvimento - pois garantia seu backup completo, portanto, o sistema teria a capacidade de conter diferentes versões de bancos, armazenados num único servidor.
+
+- **Fase de produção:**
+   - **Hostinger** - Finalmente, a loja adquiriu seu próprio domínio registrado, sendo hospedada dentro do provedor [**Hostinger**](https://www.hostinger.com.br/), obtendo o melhor desempenho na aplicação, seja no desenvolvimento ou uso. A plataforma ofereceu um ótimo gerenciamento de projeto, sem apresentar nenhum tipo de falha.
+
+   - **FileZilla e Github Actions** - Para o manuseio de conexões *client/server*, primeiramente foi instalado [**FileZilla**](https://filezilla-project.org/) em minha máquina, devido o mesmo, oferecer um servidor FTP (ambiente virtual gerenciável) com um excelente funcionamento. <br/><br/> Posteriormente, descobri uma forma mais rápida e prática de estabelecer conexões FTP, tornando os workflows (fluxos de trabalho) mais rápidos, através do [**Github Actions**](https://github.com/features/actions). Com ele, foi possível realizar as práticas combinadas de **integração contínua** e **entrega contínua (CI/CD)**.
 
 
-### V. Automação e Perfomance
+### V. Perfomance e API's
 
 - Sass
-- Gulp
-- Babel
-- WebPack
+- Gulp Js
 
 <br/>
 
@@ -159,7 +190,7 @@ Para obter acesso à documentação completa do projeto, basta clicar no link de
 
 [Clique aqui para baixar o PDF :page_facing_up:](https://github.com/Sancruz-dev/ecommerce-tcc-etec/files/8496832/TCC.-.DOCUMENTACAO.-.GRUPO.1.-.3DSA.pdf)
 
-###### <image height="360px" style="border-radius:16px" src="https://user-images.githubusercontent.com/83969467/163594918-53caf93a-557d-4316-8986-b7f0675f7c5b.png" alt="Pré-visual da documentação" title="Capa da documentação" /> Pré-visual da documentação
+###### <image height="360px" style="border-radius:16px" src="https://user-images.githubusercontent.com/83969467/163594918-53caf93a-557d-4316-8986-b7f0675f7c5b.png" alt="Pré-visual da documentação" title="Capa da documentação" /> <br/> (Pré-visual da documentação)
 
 <br/>
 
