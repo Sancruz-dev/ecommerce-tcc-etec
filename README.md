@@ -4,7 +4,7 @@
 
 > Trabalho de Conclusão de Curso (TCC) proposto pela ETEC Jardim Ângela, criado a partir dos fundamentos e aprendizagens concedidas no curso de **desenvolvimento de sistemas** integrado ao ensino médio
 
-<image src="https://user-images.githubusercontent.com/83969467/164799841-de6fe8f3-285c-4154-8fcc-a05c399196d5.png" alt="Ilustração introdutória da exposição do projeto" title="Ilustração introdutória"/>
+<image src="https://user-images.githubusercontent.com/83969467/164800317-bfdaca38-74ac-4e10-ad11-7812612eb2e4.png" alt="Ilustração introdutória da exposição do projeto" title="Ilustração introdutória"/>
 
 </div>
 
@@ -39,7 +39,7 @@ Olá, sou Sanmir Cruz, líder da equipe responsável por criar esse sistema e-co
 
 ### I. Rivier Alianças
 
-<image height="332" src="https://user-images.githubusercontent.com/83969467/163585198-6e0d8067-0f97-498e-b68d-8c8986b03b98.png" alt="Introdução da empresa cliente" title="Introdução da empresa cliente" /> 
+<image src="https://user-images.githubusercontent.com/83969467/164800805-97662dd4-63e9-417d-83e0-97dc11af3da2.png" alt="Introdução da empresa cliente" title="Introdução da empresa cliente" /> 
 
 > _Introdução da empresa cliente_
 
