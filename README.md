@@ -4,7 +4,7 @@
 
 > Trabalho de Conclusão de Curso (TCC) proposto pela ETEC Jardim Ângela, criado a partir dos fundamentos e aprendizagens concedidas no curso de **desenvolvimento de sistemas** integrado ao ensino médio
 
-<image height="250" src="https://user-images.githubusercontent.com/83969467/163599582-9bbe5a67-a8e3-4645-8aca-2b00b3a8d433.png" alt="Ilustração introdutória da exposição do projeto" title="Ilustração introdutória"/>
+<image src="https://user-images.githubusercontent.com/83969467/164799841-de6fe8f3-285c-4154-8fcc-a05c399196d5.png" alt="Ilustração introdutória da exposição do projeto" title="Ilustração introdutória"/>
 
 </div>
 
@@ -18,21 +18,21 @@ Portanto, ainda é possível realizar cadastro/login, fazer comentários, avalia
 
 ### Sumário
 
-1. [Apresentação](#-1-Apresentação)
+1. [Apresentação](#1-Apresentação)
    1. [Rivier-Aliancas](#i-Rivier-Alianças)
    2. [O Projeto](#II-O-Projeto)
-2. [Desenvolvimento](#-2-Desenvolvimento)
+2. [Desenvolvimento](#2-Desenvolvimento)
    1. [Prototipação](#i-Prototipação)
    2. [Sistema](#ii-Sistema)
    3. [Linguagens](#iii-Linguagens)
    4. [Hospedagem e CI/CD](#IV-Servidores-e-CI/CD)
    5. [Perfomance e API's](#V-Perfomance-e-APIs)
-3. [Documentação](#-3-Documentação)
-4. [Referências](#-4-Referências)
+3. [Documentação](#3-Documentação)
+4. [Referências](#4-Referências)
 
 <br/>
 
-## <div align="center"> 1. Apresentação</div>
+## 1. Apresentação
 
 Olá, sou Sanmir Cruz, líder da equipe responsável por criar esse sistema e-commerce, no qual, será apresentado no decorrer dos tópicos. Primordialmente, cabe destacar, que esse repositório exibirá as principais funções exercidas por mim (a partir do tópico de [_Desenvolvimento_](#-2-Desenvolvimento)), dentro desse trabalho acadêmico, juntamente com as demais funcionalidades que o projeto emite.
 
@@ -74,7 +74,7 @@ Ademais, a aplicação é composta por **duas grandes partes**:
 
 <br/>
 
-## <div align="center"> 2. Desenvolvimento</div>
+## 2. Desenvolvimento
 
 Por certo, todos os membros do grupo tiveram sua funções e deveres, portanto, agora serão expostas as principais tarefas, mecanismos/ferramentas utilizadas por mim, que contribuiram para o desenvolvimento dessa aplicação. Nesse trajeto, além de liderar o grupo, também efetivei encargos que envolviam back-end e front-end.
 
@@ -286,7 +286,7 @@ Por outro lado, a inserção de API's no sistema adicionou novas funções de ba
 
 <br/>
 
-## <div align="center"> 3. Documentação</div>
+## 3. Documentação
 
 Para obter acesso à documentação completa do projeto, basta clicar no link de download abaixo:
 
@@ -299,7 +299,7 @@ Para obter acesso à documentação completa do projeto, basta clicar no link de
 <br/>
 
 
-## <div align="center"> 4. Referências</div>
+## 4. Referências
 
 - [Github do projeto](https://github.com/Rivier-Team/RivierAliancasOficial)
 - [E-commerce Rivier Alianças](https://github.com/Rivier-Team/RivierAliancasOficial) 
